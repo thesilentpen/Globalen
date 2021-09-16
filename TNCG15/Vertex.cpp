@@ -34,7 +34,7 @@ bool Vertex::operator==(Vertex temp)
 }
 
 double Vertex::distance(glm::vec3 vec)
-{
+{          //squirt power
 	return sqrt(pow(pos.x - vec.x, 2.0) + pow(pos.y - vec.y, 2.0) + pow(pos.z - vec.z, 2.0));
 }
 
